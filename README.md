@@ -63,9 +63,9 @@ posthtml()
 import { Component } from 'react'
 
 class Test extends Component {
-  render (prop, { proppy }, ...props) {
+  render (prop, { prop }, ...props) {
     return (
-      <div id={test.id} class={test.class}>
+      <div id={test.id} className={test.class}>
         {test.content}
       </div>
     )
