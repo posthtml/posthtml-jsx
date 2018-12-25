@@ -5,7 +5,7 @@ const jsx = require('./lib/jsx')
  * @description JSX Renderer for PostHTML
  *
  * @module posthtml-jsx
- * @version 1.0.0
+ * @version 0.0.0
  *
  * @requires ./lib/jsx.js
  *
