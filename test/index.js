@@ -16,7 +16,7 @@ test('1 - ES5', (t) => {
         render: jsx({
           type: 'es5',
           name: 'ES5',
-          props: ['...prop1', 'prop2'],
+          props: ['prop1', '...prop2'],
           export: true
         })
       }
@@ -34,7 +34,7 @@ test('2 - ES2015', (t) => {
         render: jsx({
           type: 'es2015',
           name: 'ES2015',
-          props: ['...prop1', 'prop2'],
+          props: ['prop1', '...prop2'],
           export: true
         })
       }
